@@ -1,0 +1,247 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  color: #333;
+  background-color: #f9f9f9;
+}
+a {
+  text-decoration: none;
+}
+
+/* Navbar */
+.navbar {
+  background: #1a1a1a;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+.navbar .logo {
+  color: #FFA500;
+  font-size: 24px;
+  font-weight: bold;
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+.nav-links li {
+  margin: 0 15px;
+}
+.nav-links li a {
+  color: #fff;
+  font-weight: bold;
+}
+.nav-links li a:hover {
+  color: #2196F3;
+}
+.menu-toggle {
+  display: none;
+}
+
+/* Hero Banner */
+.hero {
+  background-color: #df9228;
+  color: #fff;
+  text-align: center;
+  padding: 80px 20px;
+}
+.hero .hero-text h1 {
+  font-size: 2.5em;
+  margin: 0 0 10px;
+}
+.hero .hero-text p {
+  font-size: 1.2em;
+  margin: 0;
+}
+
+/* Deals Section */
+.deals {
+  padding: 50px 20px;
+}
+.deals h2 {
+  text-align: center;
+  color: #1a1a1a;
+  margin-bottom: 30px;
+}
+.deals-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+}
+.deal-card {
+  background: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+.deal-card:hover {
+  transform: translateY(-5px);
+}
+.deal-card img {
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+.deal-card h3 {
+  margin: 10px 0;
+  font-size: 1.1em;
+}
+.deal-card .original-price {
+  text-decoration: line-through;
+  color: #888;
+}
+.deal-card .discounted-price {
+  color: #2196F3;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.discount-badge {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  background: #FFA500;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 3px;
+  font-size: 0.9em;
+}
+.promo-code {
+  display: inline-block;
+  background: #fff3cd;
+  border: 1px dashed #ffecb5;
+  color: #856404;
+  padding: 5px 10px;
+  border-radius: 4px;
+  margin: 10px 0;
+}
+.countdown-timer {
+  font-weight: bold;
+  margin-top: 10px;
+  color: #d32f2f;
+}
+
+/* Testimonials */
+.testimonials {
+  background: #f5f5f5;
+  padding: 50px 20px;
+}
+.testimonials h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #333;
+}
+.testimonials-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.testimonial-card {
+  background: #fff;
+  padding: 20px;
+  width: 250px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+.testimonial-card p {
+  font-style: italic;
+  margin: 0 0 10px;
+  color: #555;
+}
+.testimonial-card h4 {
+  text-align: right;
+  margin: 0;
+  color: #888;
+  font-weight: normal;
+}
+
+/* Footer */
+footer {
+  background-color: #1e1e1e;
+  color: white;
+  font-family: Arial, sans-serif;
+  padding: 40px 20px 20px;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.footer-logo-contact {
+  flex: 1 1 300px;
+}
+
+.logo {
+  width: 200px;
+  margin-bottom: 20px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 30px;
+}
+
+.contact-info p {
+  margin: 8px 0;
+  font-size: 14px;
+}
+
+.footer-links {
+  display: flex;
+  flex: 1 1 300px;
+  justify-content: space-between;
+}
+
+.footer-links a {
+  display: block;
+  color: #ccc;
+  text-decoration: none;
+  margin: 8px 0;
+  font-size: 14px;
+}
+
+.footer-links a:hover {
+  color: white;
+}
+
+.footer-social {
+  flex: 1 1 200px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.footer-social a {
+  color: white;
+  font-size: 20px;
+}
+
+.footer-bottom {
+  border-top: 1px solid #444;
+  margin-top: 30px;
+  padding-top: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-size: 13px;
+  color: #aaa;
+}
+
+.footer-policy a {
+  color: #aaa;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+.footer-policy a:hover {
+  color: white;
+}

@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FUTURELERN - Modern E-Learning Platform</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="animated-bg">
+        <div class="bg-orb orb-1"></div>
+        <div class="bg-orb orb-2"></div>
+        <div class="bg-orb orb-3"></div>
+        <div class="floating-particles">
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+        </div>
+    </div>
+
+    <!-- Modern Header -->
+    <header class="header">
+        <div class="top-bar">
+            <div class="container">
+                <div class="top-bar-content">
+                    <div class="logo">
+                        <div class="logo-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <span class="logo-text">FUTURELERN</span>
+                        <span class="logo-domain">.LK</span>
+                    </div>
+                    <div class="auth-buttons">
+                        <a href="register.html" class="auth-btn register-btn">
+                            <i class="fas fa-user-plus"></i>
+                            <span>Register</span>
+                        </a>
+                        <a href="login.html" class="auth-btn login-btn">
+                            <i class="fas fa-sign-in-alt"></i>
+                            <span>Login</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+      
+        <nav class="main-nav">
+            <div class="container">
+                <ul class="nav-links">
+                    <li><a href="index.html" class="nav-link active"><i class="fas fa-home"></i> <span>Home</span></a></li>
+                    <li><a href="pages/courses.html" class="nav-link"><i class="fas fa-graduation-cap"></i> <span>Courses</span></a></li>
+                    <li><a href="pages/discounts.html" class="nav-link"><i class="fas fa-percentage"></i> <span>Discounts</span></a></li>
+                    <li><a href="pages/events.html" class="nav-link"><i class="fas fa-calendar-alt"></i> <span>Events</span></a></li>
+                    <li><a href="pages/free.html" class="nav-link"><i class="fas fa-gift"></i> <span>Free</span></a></li>
+                    <li><a href="pages/experts.html" class="nav-link"><i class="fas fa-chalkboard-teacher"></i> <span>Experts</span></a></li>
+                    <li><a href="pages/become-a-teacher.html" class="nav-link"><i class="fas fa-user-tie"></i> <span>Become a Teacher</span></a></li>
+                    <li><a href="pages/about-us.html" class="nav-link"><i class="fas fa-info-circle"></i> <span>About Us</span></a></li>
+                    <li><a href="pages/e-library.html" class="nav-link"><i class="fas fa-book-reader"></i> <span>E-Library</span></a></li>
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="hero-bg-overlay"></div>
+       
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <span class="badge-icon">🚀</span>
+                    <span>Welcome to the Future of Learning</span>
+                </div>
+                <h1 class="hero-title">What do you want to <span class="highlight-text">learn today?</span></h1>
+                <p class="hero-subtitle">Unlock your potential with world-class courses from industry experts and transform your career with cutting-edge skills that matter in today's digital world</p>
+                
+                <div class="search-container">
+                    <div class="search-wrapper">
+                        <div class="search-icon">
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <input type="text" class="search-input" placeholder="Search courses, subjects & lessons...">
+                        <button class="search-btn">
+                            <span>Search</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                    <div class="search-suggestions">
+                        <span class="suggestion-tag">Python</span>
+                        <span class="suggestion-tag">Data Science</span>
+                        <span class="suggestion-tag">Web Development</span>
+                        <span class="suggestion-tag">AI/ML</span>
+                    </div>
+                </div>
+                
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <div class="stat-number">10,000+</div>
+                        <div class="stat-label">Active Students</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">500+</div>
+                        <div class="stat-label">Expert Courses</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">100+</div>
+                        <div class="stat-label">Top Instructors</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">98%</div>
+                        <div class="stat-label">Success Rate</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features-section">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-badge">Why Choose Us</div>
+                <h2 class="section-title">Why Choose <span class="highlight-text">FUTURELERN</span>?</h2>
+                <p class="section-subtitle">Experience the future of online education with our cutting-edge platform designed for modern learners</p>
+            </div>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-user-graduate"></i>
+                    </div>
+                    <div class="feature-content">
+                        <h3>World-Class Instructors</h3>
+                        <p>Learn from industry experts and thought leaders who bring real-world experience and cutting-edge knowledge to every lesson.</p>
+                    </div>
+                    <div class="feature-arrow">
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <div class="feature-content">
+                        <h3>Thriving Community</h3>
+                        <p>Join thousands of ambitious learners in Sri Lanka's largest online education platform, connecting students with top-tier educators.</p>
+                    </div>
+                    <div class="feature-arrow">
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <div class="feature-content">
+                        <h3>Premium Course Library</h3>
+                        <p>Access 500+ carefully curated courses with strict quality control, making us the premier destination for online learning in Sri Lanka.</p>
+                    </div>
+                    <div class="feature-arrow">
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Course Banner -->
+    <section class="featured-banner">
+        <div class="banner-bg"></div>
+        <div class="container">
+            <div class="banner-content">
+                <div class="banner-text">
+                    <div class="course-badge">
+                        <span class="badge-icon">🔥</span>
+                        <span>Most Popular Course</span>
+                    </div>
+                    <h2 class="banner-title">Data Science for Beginners in Sinhala</h2>
+                    <p class="banner-description">Master the fundamentals of data science with our comprehensive course designed specifically for beginners. Learn from industry experts and build real-world projects that showcase your skills.</p>
+                    
+                    <div class="course-features">
+                        <div class="feature-item">
+                            <i class="fas fa-clock"></i>
+                            <span>40+ Hours</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-certificate"></i>
+                            <span>Certificate</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-infinity"></i>
+                            <span>Lifetime Access</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-mobile-alt"></i>
+                            <span>Mobile Friendly</span>
+                        </div>
+                    </div>
+                    
+                    <div class="course-thumbnails">
+                        <div class="thumbnail-item">
+                            <div class="thumbnail-icon">
+                                <i class="fas fa-database"></i>
+                            </div>
+                            <span>Introduction to Data Science</span>
+                        </div>
+                        <div class="thumbnail-item">
+                            <div class="thumbnail-icon">
+                                <i class="fas fa-brain"></i>
+                            </div>
+                            <span>Learn to Learn Effectively</span>
+                        </div>
+                        <div class="thumbnail-item">
+                            <div class="thumbnail-icon">
+                                <i class="fas fa-chart-bar"></i>
+                            </div>
+                            <span>Power BI Complete Course</span>
+                        </div>
+                    </div>
+                    
+                    <button class="enroll-btn">
+                        <span>Enroll Now</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+                
+                <div class="banner-instructor">
+                    <div class="instructor-card">
+                        <div class="instructor-avatar">
+                            <i class="fas fa-user-tie"></i>
+                        </div>
+                        <div class="instructor-info">
+                            <h4>S.D. Nuwan Tharanga</h4>
+                            <p>Data Science Expert</p>
+                            <div class="instructor-rating">
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <span>4.9 (2.1k reviews)</span>
+                            </div>
+                            <div class="instructor-badge">
+                                <i class="fas fa-medal"></i>
+                                <span>Top Instructor</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <section class="courses-section">
+    <div class="container">
+        <div class="section-header">
+            <div class="section-badge">Latest Courses</div>
+            <h2 class="section-title">Latest <span class="highlight-text">Courses</span></h2>
+            <p class="section-subtitle">Discover our newest additions to help you stay ahead in your career journey</p>
+        </div>
+
+        <div class="courses-grid">
+
+            <!-- HTML Course Card -->
+            <a href="buy_sections/html-tutorials.html" class="course-card-link">
+                <div class="course-card">
+                    <div class="course-image">
+                        <div class="course-icon"><i class="fab fa-html5"></i></div>
+                        <div class="course-overlay"><div class="play-button"><i class="fas fa-play"></i></div></div>
+                        <div class="course-badge beginner">Beginner</div>
+                    </div>
+                    <div class="course-content">
+                        <div class="course-category">Information Technology</div>
+                        <h3 class="course-title">HTML Tutorials</h3>
+                        <p class="course-instructor"><i class="fas fa-user"></i> Kalana Fernando</p>
+                        <div class="course-stats">
+                            <div class="stat"><i class="fas fa-clock"></i> <span>25 hours</span></div>
+                            <div class="stat"><i class="fas fa-users"></i> <span>1.2k students</span></div>
+                        </div>
+                        <div class="course-footer">
+                            <div class="course-price">LKR 4,000.00</div>
+                            <div class="course-rating">
+                                <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                                <span>4.8</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+             <a href="buy_sections/CSS-Lectures.html" class="course-card-link">
+                <div class="course-card">
+                    <div class="course-image">
+                        <div class="course-icon"><i class="fab fa-css3-alt"></i></div>
+                        <div class="course-overlay"><div class="play-button"><i class="fas fa-play"></i></div></div>
+                        <div class="course-badge beginner">Beginner</div>
+                    </div>
+                    <div class="course-content">
+                        <div class="course-category">Information Technology</div>
+                        <h3 class="course-title">CSS Lectures</h3>
+                        <p class="course-instructor"><i class="fas fa-user"></i> Nimesh Epa</p>
+                        <div class="course-stats">
+                            <div class="stat"><i class="fas fa-clock"></i> <span>20 hours</span></div>
+                            <div class="stat"><i class="fas fa-users"></i> <span>980 students</span></div>
+                        </div>
+                        <div class="course-footer">
+                            <div class="course-price">LKR 3,000.00</div>
+                            <div class="course-rating">
+                                <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                                <span>4.9</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            
+            <a href="buy_sections/C++ Lectures.html" class="course-card-link">
+    <div class="course-card">
+        <div class="course-image">
+            <div class="course-icon"><i class="fas fa-code"></i></div>
+            <div class="course-overlay"><div class="play-button"><i class="fas fa-play"></i></div></div>
+            <div class="course-badge advanced">Advanced</div>
+        </div>
+        <div class="course-content">
+            <div class="course-category">Computer Science</div>
+            <h3 class="course-title">C++ Programming</h3>
+            <p class="course-instructor"><i class="fas fa-user"></i> Tharindu Madushanka</p>
+            <div class="course-stats">
+                <div class="stat"><i class="fas fa-clock"></i> <span>35 hours</span></div>
+                <div class="stat"><i class="fas fa-users"></i> <span>850 students</span></div>
+            </div>
+            <div class="course-footer">
+                <div class="course-price">LKR 5,500.00</div>
+                <div class="course-rating">
+                    <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></div>
+                    <span>4.3</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</a>
+
+<a href="buy_sections/Java-Tutorials.html" class="course-card-link">
+    <div class="course-card">
+        <div class="course-image">
+            <div class="course-icon"><i class="fab fa-java"></i></div>
+            <div class="course-overlay"><div class="play-button"><i class="fas fa-play"></i></div></div>
+            <div class="course-badge intermediate">Intermediate</div>
+        </div>
+        <div class="course-content">
+            <div class="course-category">Software Engineering</div>
+            <h3 class="course-title">Mastering Java</h3>
+            <p class="course-instructor"><i class="fas fa-user"></i> Dinesh Perera</p>
+            <div class="course-stats">
+                <div class="stat"><i class="fas fa-clock"></i> <span>40 hours</span></div>
+                <div class="stat"><i class="fas fa-users"></i> <span>2.1k students</span></div>
+            </div>
+            <div class="course-footer">
+                <div class="course-price">LKR 6,500.00</div>
+                <div class="course-rating">
+                    <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></div>
+                    <span>4.6</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</a>
+
+<a href="buy_sections/C-Tutorials.html" class="course-card-link">
+  <div class="course-card featured">
+    <div class="course-image">
+    <div class="course-icon"><i class="fas fa-code"></i></div>
+      <div class="course-overlay">
+        <div class="play-button"><i class="fas fa-play"></i></div>
+      </div>
+      <div class="course-badge popular">Popular</div>
+    </div>
+    <div class="course-content">
+      <div class="course-category">Programming</div>
+    <h3 class="course-title">C Programming Foundations</h3>
+      <p class="course-instructor"><i class="fas fa-user"></i> Kasun Fernando</p>
+      <div class="course-stats">
+        <div class="stat"><i class="fas fa-clock"></i> <span>45 hours</span></div>
+        <div class="stat"><i class="fas fa-users"></i> <span>3.2k students</span></div>
+      </div>
+      <div class="course-footer">
+        <div class="course-price">LKR 6,000.00</div>
+        <div class="course-rating">
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <span>4.8</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</a>
+
+<a href="buy_sections/JavaScript-Tutorials.html" class="course-card-link">
+    <div class="course-card">
+        <div class="course-image">
+            <div class="course-icon"><i class="fab fa-js-square"></i></div>
+            <div class="course-overlay"><div class="play-button"><i class="fas fa-play"></i></div></div>
+            <div class="course-badge intermediate">Intermediate</div>
+        </div>
+        <div class="course-content">
+            <div class="course-category">Information Technology</div>
+            <h3 class="course-title">JavaScript Essentials</h3>
+            <p class="course-instructor"><i class="fas fa-user"></i> Sachini Jayawardena</p>
+            <div class="course-stats">
+                <div class="stat"><i class="fas fa-clock"></i> <span>30 hours</span></div>
+                <div class="stat"><i class="fas fa-users"></i> <span>1.5k students</span></div>
+            </div>
+            <div class="course-footer">
+                <div class="course-price">LKR 5,000.00</div>
+                <div class="course-rating">
+                    <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></div>
+                    <span>4.5</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</a>
+        
+            <div class="view-all-section">
+                <button class="view-all-btn">
+                    <span>View All Courses</span>
+                    <i class="fas fa-arrow-right"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Events Banner -->
+    <section class="events-banner">
+        <div class="events-bg"></div>
+        <div class="container">
+            <div class="events-content">
+                <div class="events-icon">
+                    <i class="fas fa-calendar-star"></i>
+                </div>
+                <h2 class="events-title">Upcoming FUTURELERN.lk Events</h2>
+                <p class="events-description">Unleash your potential with FUTURELERN.lk. Explore upcoming courses and free seminars for a transformative learning experience. Discover, learn, and excel with us.</p>
+                <div class="events-buttons">
+                    <a href="pages/events.html" class="events-btn primary">
+                        <span>View Upcoming Events</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="mailto:future@learn.lk?subject=FutureLearn%20event%20updates" class="events-btn secondary">
+                        <span>Subscribe to Updates</span>
+                        <i class="fas fa-bell"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials-section">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-badge">Testimonials</div>
+                <h2 class="section-title">What our <span class="highlight-text">students</span> say</h2>
+                <p class="section-subtitle">Real stories from our amazing learning community</p>
+            </div>
+
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <div class="quote-icon">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="testimonial-content">
+                        <p>Highly Recommended! I would like to thank Mr. Sanjaya for creating this incredible platform. This has been extremely helpful for students to build their skills and advance their careers.</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>Wimukthi Sampath</h4>
+                            <p>Web Developer</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <div class="quote-icon">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="testimonial-content">
+                        <p>Thank you very much for everything. I really appreciate the outstanding support provided. As an entrepreneur, I know how valuable time is. Thanks Mr. Sanjaya and the entire team!</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>Chathumal Jayanjana</h4>
+                            <p>Business Owner</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <div class="quote-icon">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="testimonial-content">
+                        <p>Best platform I've come across in years! Clean design, exceptional support, and amazing content quality. Absolutely love the innovative work Mr. Sanjaya is doing!</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>Dinithi Perera</h4>
+                            <p>Software Engineer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-main">
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-section brand-section">
+                        <div class="footer-logo">
+                            <div class="logo-icon">
+                                <i class="fas fa-graduation-cap"></i>
+                            </div>
+                            <span class="logo-text">FUTURELERN</span>
+                            <span class="logo-domain">.LK</span>
+                        </div>
+                        <p class="footer-description">Empowering Sri Lankan learners with world-class education and cutting-edge skills for the digital future.</p>
+                        <div class="contact-info">
+                            <div class="contact-item">
+                                <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                                <div class="contact-details">
+                                    <span class="contact-label">Email</span>
+                                    <span class="contact-value">future@learn.lk</span>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="contact-icon"><i class="fas fa-phone"></i></div>
+                                <div class="contact-details">
+                                    <span class="contact-label">Phone</span>
+                                    <span class="contact-value">075 6 700 700</span>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+                                <div class="contact-details">
+                                    <span class="contact-label">Address</span>
+                                    <span class="contact-value">102/03, Campus Road, Raththanapitiya, Boralesgamuwa, 10250</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="footer-section">
+                        <h3>Pages</h3>
+                        <div class="footer-links">
+                            <a href="index.html">Home</a>
+                            <a href="pages/courses.html">Courses</a>
+                            <a href="pages/discounts.html">Discounts</a>
+                            <a href="pages/events.html">Events</a>
+                            <a href="pages/free.html">Free Lessons</a>
+                            <a href="pages/experts.html">Experts</a>
+                            <a href="pages/become-a-teacher.html">Become a Teacher</a>
+                            <a href="pages/about-us.html">About Us</a>
+                            <a href="pages/e-library.html">E-Library</a>
+                        </div>
+                    </div>
+
+                    <div class="footer-section">
+                        <h3>Course Library</h3>
+                        <div class="footer-links">
+                            <a href="buy_sections/C-Tutorials.html">C Tutorials</a>
+                            <a href="buy_sections/C%23-Lec.html">C# Lectures</a>
+                            <a href="buy_sections/C%2B%2B%20Lectures.html">C++ Lectures</a>
+                            <a href="buy_sections/CSS-Lectures.html">CSS Lectures</a>
+                            <a href="buy_sections/html-tutorials.html">HTML Tutorials</a>
+                            <a href="buy_sections/Java-Tutorials.html">Java Tutorials</a>
+                            <a href="buy_sections/JavaScript-Tutorials.html">JavaScript Tutorials</a>
+                        </div>
+                    </div>
+
+                    <div class="footer-section">
+                        <h3>Account</h3>
+                        <div class="footer-links">
+                            <a href="login.html">Login</a>
+                            <a href="register.html">Register</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2025 FUTURELERN.lk. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+
+
+<script src="js/script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HTML Tutorials - Buy Course</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: url('images/background.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: #f1f1f1;
+    }
+
+    .overlay {
+      background-color: rgba(0, 0, 0, 0.85);
+      min-height: 100vh;
+      padding: 60px 20px;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 40px;
+      background-color: #1a1a1a;
+      border-radius: 15px;
+      box-shadow: 0 8px 30px rgba(255, 165, 0, 0.2);
+    }
+
+    h1 {
+      color: #ffa500;
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+
+    p, li {
+      color: #ddd;
+      font-size: 17px;
+      line-height: 1.6;
+    }
+
+    ul {
+      margin-top: 20px;
+      padding-left: 20px;
+    }
+
+    .price {
+      font-size: 24px;
+      color: #ff8c00;
+      font-weight: bold;
+      margin: 30px 0 20px;
+    }
+
+    .btn {
+      background: #ff6600;
+      color: #fff;
+      padding: 14px 30px;
+      font-size: 17px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    .btn:hover {
+      background: #e65c00;
+    }
+
+    /* Modal styles */
+    .modal {
+      display: none;
+      position: fixed;
+      z-index: 1000;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0,0,0,0.7);
+    }
+
+    .modal-content {
+      background-color: #2b2b2b;
+      color: #fff;
+      margin: 5% auto;
+      padding: 30px 40px;
+      border-radius: 12px;
+      width: 90%;
+      max-width: 450px;
+      position: relative;
+      animation: fadeIn 0.3s ease-in-out;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(-20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .close {
+      position: absolute;
+      top: 14px;
+      right: 20px;
+      font-size: 28px;
+      color: #bbb;
+      cursor: pointer;
+    }
+
+    .close:hover {
+      color: #fff;
+    }
+
+    input[type="text"],
+    input[type="number"] {
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0;
+      border-radius: 6px;
+      border: none;
+      background: #1c1c1c;
+      color: #f1f1f1;
+      border: 1px solid #444;
+    }
+
+    input::placeholder {
+      color: #aaa;
+    }
+
+    .pay-btn {
+      width: 100%;
+      margin-top: 15px;
+      background-color: #ffa500;
+      padding: 12px;
+      color: black;
+      font-size: 16px;
+      font-weight: bold;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+
+    .pay-btn:hover {
+      background-color: #ff8800;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="overlay">
+    <div class="container">
+      <h1>C# Lectures</h1>
+      <p>Get started with C#, a modern language widely used for developing Windows apps, games with Unity, and web applications.</p>
+
+      <ul>
+        <li>C# syntax and basic programming concepts</li>
+        <li>Object-oriented programming in C#</li>
+        <li>Exception handling and collections</li>
+        <li>Introduction to .NET framework and LINQ</li>
+        <li>Basics of Windows Forms applications</li>
+        <li>Hands-on project: Build a simple calculator app</li>
+       
+        
+        
+      </ul>
+
+      <div class="price">Price: LKR 4000.00</div>
+      <button class="btn" onclick="openModal()">Buy Now</button>
+    </div>
+  </div>
+
+  <!-- Modal -->
+  <div id="paymentModal" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <h2 style="color: #ffa500;">Payment Details</h2>
+      <label>Cardholder Name</label>
+      <input type="text" placeholder="Enter Name">
+      <label>Card Number</label>
+      <input type="text" placeholder="1234 5678 9012 3456">
+      <label>Expiry Date</label>
+      <input type="text" placeholder="MM/YY">
+      <label>CVV</label>
+      <input type="number" placeholder="123">
+      <button class="pay-btn">Pay LKR 4000.00</button>
+    </div>
+  </div>
+
+  <script>
+    function openModal() {
+      document.getElementById('paymentModal').style.display = 'block';
+    }
+
+    function closeModal() {
+      document.getElementById('paymentModal').style.display = 'none';
+    }
+
+    window.onclick = function(event) {
+      const modal = document.getElementById('paymentModal');
+      if (event.target === modal) {
+        modal.style.display = "none";
+      }
+    }
+  </script>
+
+</body>
+</html>
