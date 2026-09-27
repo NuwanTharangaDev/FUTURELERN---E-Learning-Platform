@@ -4,7 +4,7 @@ FUTURELERN is a web-based E-Learning Platform designed to provide students with 
 
 The project follows a structured architecture with separate **Frontend, Backend, and Database components.
 
- Features
+ 01.Features
 
 *  Modern and responsive home page
 *  Online courses and tutorials
@@ -20,7 +20,7 @@ The project follows a structured architecture with separate **Frontend, Backend,
 *  PHP backend for authentication and database communication
 *  Responsive web interface
 
- Technologies Used
+02.Technologies Used
 
 Frontend
 
@@ -30,7 +30,7 @@ Frontend
 * Font Awesome
 * Google Fonts
 
- Backend
+Backend
 
 * PHP
 
@@ -38,13 +38,13 @@ Database
 
 * MySQL
 
- Development Environment
+Development Environment
 
 * XAMPP / Apache
 * MySQL
 * Visual Studio Code
 
- 📁 Project Structure
+03. 📁 Project Structure
 
 
 FUTURELERN/
