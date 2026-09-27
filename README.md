@@ -47,29 +47,29 @@ Development Environment
 03. 📁 Project Structure
 
 
-FUTURELERN/ 
-│ 
-├── Backend/ 
-│ ├── auth/ 
-│ ├── config/
-│ │ └── db.connect.php 
-│ ├── login.php 
-│ └── register.php 
+FUTURELERN---E-Learning-Platform/
 │
-├── Database/ 
-│ └── futurelearn.sql 
+├── Backend/
+│   ├── auth/
+│   ├── config/
+│   │   └── db.connect.php
+│   ├── login.php
+│   └── register.php
 │
-├── Frontend/ 
-│ ├── assets/ 
-│ ├── buy_sections/ 
-│ ├── css/ 
-│ ├── js/ 
-│ ├── pages/ 
-│ ├── index.html 
-│ ├── login.html 
-│ └── register.html 
-│ ├── index.html 
+├── Database/
+│   └── futurelearn.sql
 │
+├── Frontend/
+│   ├── assets/
+│   ├── buy_sections/
+│   ├── css/
+│   ├── js/
+│   ├── pages/
+│   ├── index.html
+│   ├── login.html
+│   └── register.html
+│
+├── index.html
 └── README.md
 
 
